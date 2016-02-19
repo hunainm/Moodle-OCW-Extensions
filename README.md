@@ -5,7 +5,9 @@ One important aspect that Moodle still lacks so far is support for Open Coursewa
 
 Following are the major goals envisioned for this project:
 a) Basic OCW support to enable what content to be made open
-b) P2P networking of Sakai installations so that the OCW content can be located
+
+b) P2P networking of Moodle installations so that the OCW content can be located
+
 c) Semantic searching of content using ideas like Semantic Overlay Networks
 
 In Peer-to-Peer (P2P) systems, content based full text search is a very challenging problem. There are many traditional approaches to developing a SON which are either centralized or use flooding to ensure accuracy of the results returned. But the major problems with these systems were that if the central server went down all connected nodes would also disconnect thereby resulting in system crash. We then researched on more efficient algorithms namely pSearch, iCluster, pFusion, Chord, CAN and recitations by many different authors to come up with an efficient algorithm to implement in our project. Many of these algorithms were based on forming clusters of nodes having similar content and then searching through these clusters whenever a query cam to speed up the searching process. The nodes are also decentralized thereby no problem of system crashing would occur.
