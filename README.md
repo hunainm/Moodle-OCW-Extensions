@@ -5,7 +5,7 @@ An open source solution to create Semantic Overlay Networks for Open Coursewares
 # Installation steps
 * [Install moodle](/moodle)
 * [Setup python scripts](/scripts)
-* [Compile SONNode / Use pre-built binary](/src)
+* [Compile SONNode](/src) / [Use pre-built binary](/build)
 * Copy all files from [/scripts](/scripts) directory to application path
 * Start first node
 ```shell
