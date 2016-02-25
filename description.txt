@@ -1,4 +1,5 @@
-# Extensions-for-Open-Courseware
+Moodle OCW Extensions
+
 Learning Management Systems (LMS) have been in use for quite some time. Educational institutions use them to administer and manage their courses and other resources. The common features of most of these LMS’s include availability of course content, related resources, gradebooks, roosters, announcements etc.
 
 These facilities are, however, only available to the students that are associated with the institutions the LMS belongs to. Hence the access of academic material is largely segregated.
