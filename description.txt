@@ -1,0 +1,18 @@
+Moodle OCW Extensions
+
+Learning Management Systems (LMS) have been in use for quite some time. Educational institutions use them to administer and manage their courses and other resources. The common features of most of these LMS’s include availability of course content, related resources, gradebooks, roosters, announcements etc.
+
+These facilities are, however, only available to the students that are associated with the institutions the LMS belongs to. Hence the access of academic material is largely segregated.
+
+The purpose of our project is to allow students to get access to public resources of different universities regardless of their own institutional associations.
+
+To this end, we aim to develop extensions or plugins that can be attached to the LMS’s employed by institutions and will make a pool, or a network, among them. Through this network, the sharing of resources or course contents will be possible.
+After a lot of literature review we concluded that this network cannot be of a centralized nature. For in a centralized network, the majority of nodes depend on one parent node for their connectivity. Although this approach is easy to implement and extend, there are a few drastic drawbacks.
+
+First issue is reliability. If the university acting as the center of the network had its server taken down due to some unfortunate event, the accessibility across the network will be compromised and whole network will potentially go down.
+
+Secondly, the dispatch mode of query distribution of the centralized system comes out to be inefficient since lookup occurs at multiple stops and query has to make several round trips in order to get to the node of interest.
+
+Therefore a P2P network appears to be a good choice to serve our needs. It solves the reliability problem. But to tackle the problem of efficiency we have to improve upon the classical P2P architecture. We have to develop an additional layer upon the P2P layer to ensure an efficient flow of queries and results between nodes. We call this sort of architecture a Semantic Overlay Network, since the distribution of nodes across the network is based upon the semantics of their content and resources.
+
+The major caveat is to make the sharing of content reliable, fast and efficient. This is what this project is all about. For the purposes of experimentation we've taken Moodle to be our baseline since it doenst have an OCW support
